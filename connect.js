@@ -22,7 +22,7 @@ async function onChangeId() {
     }
     const str =
       "https://minenations.mypinata.cloud/ipfs/bafybeihhe5k3own4ugmrx2zcqak7zsugggvwctmhgdbyfxx3hhymwej6yi/" +
-      id +
+      x.value +
       extent;
     document.getElementById("punk_view").src = str;
   } else {

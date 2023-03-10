@@ -150,21 +150,9 @@ async function saved() {
 async function onReadmore() {
   document.getElementById(
     "silver_desc_text"
-  ).innerHTML = `<div>Introducing our custom Crypto Punk silver pendants - the perfect addition
-      to any cryptocurrency enthusiast's jewelry collection!</div> <br/><div>Each pendant is
-      made with high-quality sterling silver and expertly crafted to capture the
-      unique and iconic design of the Crypto Punk artwork. 
-      <br/><div style="margin-top:10px;">Our pendants can be customized to your specifications, allowing you to choose your favorite
-      Crypto Punk character or design, as well as any additional details you'd
-      like to include.</div>
-      <br/><div>Whether you're a long-time collector or just discovering
-      the world of cryptocurrency, these pendants are sure to turn heads and
-      spark conversations. With their sleek and modern design, our custom Crypto
-      Punk silver pendants are versatile enough to wear with any outfit, making
-      them the perfect statement piece for both casual and formal occasions. And
-      because they're made with high-quality materials, you can be sure that
-      your pendant will last for years to come.</div>
-      <br/><div>Order now and join the growing
-      community of Crypto Punk collectors and enthusiasts, and show off your
-      love for all things cryptocurrency with our custom silver pendants.</div>`;
+  ).innerHTML = `<div>IIt's time to get unchained with your very own custom Unordinal Silver Pendant.</div> <br/>
+      <div>Each pendant is crafted with high-quality sterling silver and expertly designed to capture the unconventional and striking appeal of the Unordinal artwork. Our pendants are fully customizable, allowing you to select your token id and add your very own inscription on the back. </div><br/>
+      <div style="margin-top:10px;">All our pendants come with a free 21 inch sterling silver chain and free tracked international shipping.</div>
+      <br/><div>Whether you're a collector of unusual and rare pieces or just exploring new horizons, our Unordinal Pendants are sure to grab attention and initiate conversations. Their modern and sleek design makes them perfect for wearing with any outfit, making them ideal statement pieces for both casual and formal occasions. Plus, because we use only the highest quality materials, you can be confident that your pendant will last for many years to come.</div>
+      <br/><div>Join the community of Unordinal enthusiasts and make a statement with our custom silver pendants. Order now and show off your unique style and love for extraordinary designs!</div>`;
 }

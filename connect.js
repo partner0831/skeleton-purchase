@@ -39,10 +39,17 @@ async function onSecure() {
 async function getparam() {
   const queryString = window.location.search.split("?")[1];
   const id = queryString.split("=")[1];
+  let extent = "";
+
+  if (id > 10) {
+    extent = ".png";
+  } else {
+    extent = ".gif";
+  }
   const str =
     "https://minenations.mypinata.cloud/ipfs/bafybeihhe5k3own4ugmrx2zcqak7zsugggvwctmhgdbyfxx3hhymwej6yi/" +
     id +
-    ".gif";
+    extent;
 
   document.getElementById("token_punk_id").innerHTML = id;
   document.getElementById("token_punk_img").src = str;

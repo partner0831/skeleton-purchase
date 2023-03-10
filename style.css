@@ -8,7 +8,7 @@ body{
 }
 .container {
     min-height: 100vh;
-    background-color: #DE581B;
+    background-color: #1E1E1E;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -157,6 +157,9 @@ body{
 }
 @media screen and (max-width: 580px) 
 {
+    .header-container{
+        height: 300px;
+    }
     .header_image{
         transform: scale(1.2);
     }

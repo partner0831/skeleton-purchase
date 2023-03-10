@@ -23,7 +23,7 @@ async function onChangeId() {
     document.getElementById("punk_view").src = str;
   } else {
     const str =
-      "https://cryptopunks.app/cryptopunks/cryptopunk1.png?size=2500&customColor=F7931A";
+      "https://i.seadn.io/gcs/files/40e35ab4a4e7c654151bdbb8cd19b2f7.png?auto=format&w=256";
 
     document.getElementById("punk_view").src = str;
   }
@@ -40,9 +40,10 @@ async function getparam() {
   const queryString = window.location.search.split("?")[1];
   const id = queryString.split("=")[1];
   const str =
-    "https://cryptopunks.app/cryptopunks/cryptopunk" +
+    "https://minenations.mypinata.cloud/ipfs/bafybeihhe5k3own4ugmrx2zcqak7zsugggvwctmhgdbyfxx3hhymwej6yi/" +
     id +
-    ".png?size=2500&customColor=F7931A";
+    ".gif";
+
   document.getElementById("token_punk_id").innerHTML = id;
   document.getElementById("token_punk_img").src = str;
 }

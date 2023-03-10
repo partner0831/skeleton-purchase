@@ -4,7 +4,11 @@ async function checkWallet() {
       const accounts = await window.ethereum.request({
         method: "eth_requestAccounts",
       });
-      console.log(accounts, accounts[0].length);
+
+      document.getElementById("connect_txt_really").innerHTML =
+        accounts[0].substring(0, 3) +
+        "..." +
+        accounts[0].substring(accounts[0].length - 3);
       document.getElementById("connect_txt").innerHTML =
         accounts[0].substring(0, 3) +
         "..." +

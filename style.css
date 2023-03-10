@@ -155,14 +155,21 @@ body{
 .connect_btn_res{
     display: none;
 }
+@media screen and (max-width: 375px) 
+{
+    .header-container{
+        height: 200px !important;
+    }
+    .body-container{
+        margin-top: 0px !important;
+    }
+}
 @media screen and (max-width: 580px) 
 {
     .header-container{
-        height: 300px;
+        height: 250px;
     }
-    .header_image{
-        transform: scale(1.2);
-    }
+   
     .down_arrow{
         width: 40px;
         height: 40px;

@@ -15,11 +15,15 @@ async function checkWallet() {
 async function onChangeId() {
   const x = document.getElementById("punkid");
   if (x.value) {
+    if (x.value > 10) {
+      extent = ".png";
+    } else {
+      extent = ".gif";
+    }
     const str =
-      "https://cryptopunks.app/cryptopunks/cryptopunk" +
-      x.value +
-      ".png?size=2500&customColor=F7931A";
-
+      "https://minenations.mypinata.cloud/ipfs/bafybeihhe5k3own4ugmrx2zcqak7zsugggvwctmhgdbyfxx3hhymwej6yi/" +
+      id +
+      extent;
     document.getElementById("punk_view").src = str;
   } else {
     const str =
